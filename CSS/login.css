@@ -1,0 +1,303 @@
+
+/*Universal Selectors Starts---------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.com-gap{
+    padding: 100px 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+img{
+    max-width: 100%;
+}
+h1,.heading-one{
+    font-size: 100px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+h2,.heading-two{
+    font-size: 66px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+h3,.heading-three{
+    font-size: 33px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+h4,.heading-four{
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+}
+h5,.heading-five{
+    text-transform: capitalize;
+    margin: 0 0 20px;
+
+}
+h6,.heading-six{
+    text-transform: capitalize;
+    line-height: 1.1;
+    margin: 0 0 20px;
+}
+span{
+    /* color: var(--orange); */
+}
+:root{
+    --white:#fff;
+    --orange:#FF7236;
+    --whatsapp-green:#25D366;
+    --facebook-color:#1877F2;
+    --twitter-color:#14171A;
+    --google-color:	#d62d20;
+    --instagram-color: #962fbf;
+    --linkedin-color: #0077B5;
+    --youtube-color: #FF0000;
+    --navy-blue:#162242;
+    --deep-green:#84BB45;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 21px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 1px solid var(--orange);
+    
+}
+.btn:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+/*Universal Selectors ends---------------------*/
+/*header-top-StartS-------------------------------*/
+.header-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--twitter-color);
+    padding: 10px 0;
+}
+.header-top-mail ::before{
+    content: "/";
+}
+.header-box-left a{
+    color: var(--white);
+}
+.header-box-left a:hover{
+    color: var(--orange);
+}
+/* .header-box-right a::after{
+    content:" Login / Register"
+} */
+#login-btn-icon{
+    padding-right: 10px;
+}
+/*header-top-endsS------------------*/
+/*header-section Starts--------------------*/
+.header-section{
+    /* padding: 30px 0; */
+    /* background-color: aqua; */
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    display: block;
+}
+/*nav-Starts---------*/
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    padding: 10px 0;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links li a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.nav-links li a:hover{
+    color: var(--orange);
+}
+/* .active-home{
+    color: var(--orange);
+} */
+/*header-section ends--------------------*/
+/*banner-Section Starts--------------------*/
+.banner-section{
+    min-height: calc(100vh - 100px);
+    background-image: url(/Assets/Images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(30, 28, 28, 0.717);
+    background-blend-mode: color-burn;
+    /* position: relative; */
+}
+.banner-section-child{
+    color: var(--white);;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.banner-section-child h1{
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner-section-child p{
+    font-size: 16px;
+    line-height: 1.1;
+}
+/* .banner-text{
+    margin-bottom: 30px;
+} */
+.whatapp-btn{
+    display: inline-block;
+    color: var(--whatsapp-green);
+    font-size: 50px;
+    position: fixed;
+    left: 4%;
+    bottom: 10%;
+    z-index: 3;
+}
+/*banner-Section ends--------------------*/
+/*Sign-in-Section StartS-------------------------*/
+.sign-in-section{
+   background-image: url(/Assets/Images/project-filter-bg-home-v2.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+
+}
+.sign-in-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.sign-in-section-child{
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    border: 5px groove var(--orange);
+}
+
+.sign-left,.sign-right{
+    width: 50%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.sign-left ,.sign-right{
+    /* background-color: var(--twitter-color); */
+    color: var(--white);
+}
+
+.Sign-form input{
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+
+/*Sign-in-Section endS-------------------------*/
+/*footer-Section Starts----------------------*/
+.footer-section{
+    background-color: var(--twitter-color);
+    padding: 100px 0;
+}
+.footer-section-child{
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-headings{
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.footer-one,.footer-two{
+    width: 25%;
+    padding: 10px;
+}
+.footer-icons a{
+    color: var(--white);
+    margin-right: 5px;
+    font-size: 20px;
+}
+.footer-icons a:hover{
+    color: var(--orange);
+}
+.footer-one p{
+    /* width:77%; */
+
+}
+.footer-logo img{
+    display: block;
+}
+.footer-logo{
+    height: 100%;
+}
+
+.footer-links li{
+    margin-bottom: 10px;
+}
+.footer-links li a{
+    color: var(--white);
+    display: inline-block;
+    text-transform: uppercase;
+}
+.footer-links li a:hover{
+    color: var(--orange);
+    transition: 0.3s;
+    /* text-transform: uppercase; */
+    
+}
+/*footer-Section ends----------------------*/

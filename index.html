@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest by Olive</title>
+    <!--Slick CDN-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <!-- jquery js cdn -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inder&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Font-Aswm CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--CSS links-->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+    <!--header-top-StartS--------------->
+   <div class="header-box">
+        <div class="container">
+            <div class="header-box-child">
+                <address class="header-box-left">
+                    <a href="tel:8927689051"><i class="fa-solid fa-phone"></i> +91 - 8927689051</a>
+                    <a href="mailto:dalapatiolive@gmail.com" class="header-top-mail"><i class="fa-solid fa-envelope"></i> dalapatiolive@gmail.com</a>
+                </address>
+                <div class="nav-btn">
+                    <a href="/login.html" target="_blank" class="btn"><i class="fa-solid fa-lock" id="login-btn-icon"></i>Login / register</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--header-top-endS--------------->
+    <!--header-section Starts--------------->
+   <header class="header-section">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo"><img src="./Assets/Images/SmallSquareLogoJpg-removebg-preview.png" alt="logo"></a>
+
+                <!--id use for JS-->
+                <ul class="nav-links" id="lists">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./books.html" target="_blank">books and media</a></li>
+                    <li><a href="./news.html" target="_blank">news</a></li>
+                    <li><a href="./authors.html" target="_blank">authors</a></li>
+                    <li><a href="./authors.html" target="_blank">blog</a></li>
+                </ul>
+
+                <!--id use for js-->
+                <div class="hamburger" id="bar">&#9776;</div>
+            </nav>
+        </div>
+   </header> 
+   <!--header-section ends--------------->
+   <main>
+        <!--banner-Section Starts--------------------->
+        <!--id use for JS-->
+        <section class="banner-section"  id="banner-padding">
+            <div class="container">
+                <div class="banner-section-child"> 
+                    <span>knowledge knows no limits!</span>
+                    <h1>discover your roots</h1>
+                    <p>we discover new ideas, understand different perspectives, and unlock the potential within us. Knowledge fuels innovation, shapes our future, and connects us to the wisdom of the past. In a world of endless possibilities, learning never stops—because knowledge knows no limits!</p>
+                    <!--id="banner-btn" for js onclick event listener  -->
+                    <div class="banner-btn-box">
+                        <a href="#" class="btn" id="banner-btn">read more</a>
+                    </div>
+                    <!--whatSapp-icon-->
+                    <a href="https://web.whatsapp.com/" target="_blank" class="whatapp-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--banner-Section ends--------------------->
+        <!--welcome-Section Starts-------------------->
+        <section class="welcome-section com-gap">  
+            <div class="container">
+                <div class="welcome-section-child">
+                  <div class="welcome-left">
+                    <h2>welcome to the bookNest!</h2>
+                    <span>Every moment is a chance to learn.</span>
+                    <p>where knowledge finds a home! Books are more than just pages; they are gateways to wisdom, imagination, and endless possibilities. At BookNest, we believe in the power of reading to inspire minds, nurture creativity, and fuel lifelong learning. Whether you seek adventure, knowledge, or personal growth, BookNest is your perfect companion in the journey of discovery. Dive into a world of stories, ideas, and knowledge</p>
+                    <a href="#" class="btn" id="welcome-btn">read more</a>
+                  </div>
+                  <div class="welcome-right">
+                        <div class="welcome-right-image">
+                            <figure><img src="./Assets/Images/welcome-img-home-v3.jpg" alt="welcome-img"></figure>
+                        </div>
+                        
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!--welcome-Section ends-------------------->
+        <!--book-catagories-Section Starts------------------->
+        <section class="books-catagories com-gap">
+            <div class="container">
+                <div class="books-catagories-child">
+                    <h2>check out the new releases</h2>
+                    <div class="catagory-btns">
+                       
+                        <a href="#" class="btn">all releases</a>
+                        <a href="#" class="btn">fiction</a>
+                        <a href="#" class="btn">non-fiction</a>
+                        <a href="#" class="btn">self development</a>
+                        <a href="#" class="btn">adults</a>
+                        <a href="#" class="btn">science and technology</a>
+                        <a href="#" class="btn">novel</a>
+                    </div>
+
+                    <div class="books">
+                        <div class="book-one">
+                            <div class="book-one-image">
+                                <figure><img src="./Assets/Images/Book-one.jpg" alt="book-one"></figure>
+                            </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">becoming Supernatural</h3>
+                                <span>dr. joe dispenza</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                            <div class="book-one-image">
+                                <figure><img src="./Assets/Images/Book-two.jpg" alt="book-two"></figure>
+                            </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">power of Subconsious mind</h3>
+                                <span>dr. joseph murphy</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN.  9789334050684</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                            <div class="book-one-image">
+                                <figure><img src="./Assets/Images/Book-three.jpg" alt="book-three"></figure>
+                            </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">the alchemist</h3>
+                                <span>paulo coelho</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                            <figure><img src="./Assets/Images/Book-four.jpeg" alt="book-four"></figure>
+                            <div class="book-details">
+                                <h3 class="heading-six">how to listen</h3>
+                                <span>oscar trimboli</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                           <div class="book-one-image">
+                            <figure><img src="./Assets/Images/Book-five.jpg" alt="book-five"></figure>
+                           </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">the missing piece</h3>
+                                <span>kevin egan</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                            <div class="book-one-image">
+                                <figure><img src="./Assets/Images/Book-six.jpg" alt="book-six"></figure>
+                            </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">the sonic boom</h3>
+                                <span>joel beckerman</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                           <div class="book-one-image">
+                            <figure><img src="./Assets/Images/Book-seven.jpg" alt="book-seven"></figure>
+                           </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">the power of one thought</h3>
+                                <span>bk Shivani</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                        <div class="book-one">
+                            <div class="book-one-image">
+                                <figure><img src="./Assets/Images/Book-eight.jpg" alt="book-eight"></figure>
+                            </div>
+                            <div class="book-details">
+                                <h3 class="heading-six">ikigai</h3>
+                                <span>Héctor García and Francesc Miralles</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p> ISBN. 9781401953119</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--book-catagories-Section ends------------------->
+        <!--authors-Section Starts------------------>
+                <section class="authors-section com-gap">
+                    <div class="container">
+                        <h2>meet our authors</h2>
+                        <div class="authors-section-child">
+                            <div class="authors">
+                                <div class="author-one">
+                                    <div class="author-one-image">
+                                        <figure><img src="./Assets/Images/channels4_profile.jpg" alt="author-1"></figure>
+                                    </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Dr. Joe Dispenza</h3>
+                                        <span>Author, researcher, lecturer</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="author-one">
+                                    <div class="author-one-image">
+                                        <figure><img src="./Assets/Images/brianna-magazine-spread-final-edit-0013-copy-e1549646462973.jpg" alt="author-1"></figure>
+                                    </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Jinifer Scott</h3>
+                                        <span>Crime Fiction Writer</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                   
+                                  
+                                </div>
+                                <div class="author-one">
+                                   <div class="author-one-image">
+                                    <figure><img src="./Assets/Images/channels4_profile.jpg" alt="author-1"></figure>
+                                   </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Neville Goddard</h3>
+                                        <span>Writer</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="author-one">
+                                    <div class="author-one-image">
+                                        <figure><img src="./Assets/Images/brianna-magazine-spread-final-edit-0013-copy-e1549646462973.jpg" alt="author-1"></figure>
+                                    </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Raskin Bond</h3>
+                                        <span>Indian Author</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                  
+                                  
+                                </div>
+                                <div class="author-one">
+                                   <div class="author-one-image">
+                                    <figure><img src="./Assets/Images/brianna-magazine-spread-final-edit-0013-copy-e1549646462973.jpg" alt="author-1"></figure>
+                                   </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Anuja Chauhan</h3>
+                                        <span>Indian Novelist and Screen Writer</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="author-one">
+                                    <div class="author-one-image">
+                                        <figure><img src="./Assets/Images/brianna-magazine-spread-final-edit-0013-copy-e1549646462973.jpg" alt="author-1"></figure>
+                                    </div>
+                                    <div class="author-one-details">
+                                        <h3 class="heading-four">Brianna Wiest</h3>
+                                        <span>Author</span>
+                                        <p>“Digital content to students educators and leaders with new books we infuse students with a love.”</p>
+                                        <div class="author-links">
+                                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                 
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!--authors-Section ends------------------>
+        <!--library-insights-Section Starts----------------->
+        <section class="library-insights-section com-gap">
+            <div class="container">
+                <div class="library-insights-section-child">
+                    <h2>Library Insights</h2>
+                    <p>Welcome to the Library Insights section! Here, you’ll find a collection of carefully selected videos that provide valuable information about library management, book categorization, digital libraries, and more. Whether you're a student, librarian, or book enthusiast, these videos will help you understand how modern libraries operate and how technology is transforming the way we access books.</p>
+
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <iframe width="390" height="315" src="https://www.youtube.com/embed/3eoAfwpTz-o?si=upLA-uvnKu4N2252" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="390" height="315" src="https://www.youtube.com/embed/AbjAe650zIg?si=M2oB2w8y1mAc2p1Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="390" height="315" src="https://www.youtube.com/embed/JzUMVPTzS9E?si=M8SDvm-G7bXdRaX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="390" height="315" src="https://www.youtube.com/embed/0Z3oNdCwWLI?si=OcfrKfPUSJ8v0ewx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+
+                        
+                    </div>
+
+                
+                    
+
+                </div>
+            </div>
+        </section>
+        <!--library-insights-Section ends----------------->
+        <!--community-Section Starts--------------->
+        <section class="community-section com-gap">
+            <div class="container">
+                <div class="community-section-child">
+                    <h2>WordS From our Community</h2>
+
+                    <p> Share your thoughts on books you've read and explore recommendations from others.</p>
+
+                    <!-- <div class="review-one">
+                        <div class="review-one-img">
+                            <img src="/Assets/Images/review-img-one.jpg" alt="review-img">
+
+                        </div>
+                        <div class="review-one-details">
+                            <h3>Susmita Banerjee Dalapati</h3>
+                            <strong>Student</strong>
+                            <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+
+                        </div>
+                    </div> -->
+
+
+                      <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                                
+                                    <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+        
+                                <div class="review-one-details">
+                                    <h3 class="heading-four">Ananya Sharma</h3>
+                                    <strong>Student</strong>
+                                    <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                                
+                                    <img src="./Assets/Images/review-three-resize.png" alt="review-img">
+        
+                               
+                                <div class="review-one-details">
+                                    <h3 class="heading-four">Priya Patel</h3>
+                                    <strong>Student</strong>
+                                    <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                    <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+        
+                               
+                                <div class="review-one-details">
+                                    <h3 class="heading-four">Neha Varma</h3>
+                                    <strong>Student</strong>
+                                    <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-two.jpeg" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Riya Gupta</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-three.png" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Sanya Iyer</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Kavya Nair</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Ishita Bose</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Meera Choudhury</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-one">
+                               
+                                <img src="./Assets/Images/review-img-one.jpg" alt="review-img">
+    
+                           
+                            <div class="review-one-details">
+                                <h3 class="heading-four">Pooja Reddy</h3>
+                                <strong>Student</strong>
+                                <p>"This library management system is a game-changer! The interface is clean, easy to navigate, and makes organizing my digital library effortless. I love the advanced search feature—it helps me find books instantly!"</p>
+    
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>   
+
+                </div>
+            </div>
+        </section>
+        <!--community-Section ends--------------->
+        <!--follow-us-Section Starts---------------------->
+        <section class="follow-us com-gap">
+            <div class="container">
+                <div class="follow-us-child">
+                    <h2>follow us</h2>
+                    <p>Stay connected with us for the latest book arrivals, events, and updates! Follow us on our social media platforms and never miss out on exciting library news.</p>
+
+                    <div class="social-links">
+                            <!--all id's use for apply hover effects in js -->
+                            <a href="https://www.facebook.com/" target="_blank" class=" social-link" id="facebook" style=" background-color: var(--facebook-color);   color: #fff;" onmouseover=""><i class="fa-brands fa-facebook"></i></a>
+                        
+                        
+                            <a href="https://x.com/i/flow/login?lang=en" target="_blank" class=" social-link" id="twitter" style=" background-color: var(--twitter-color);"><i class="fa-brands fa-twitter"></i></a>
+                        
+                        
+                           <a href="https://www.google.co.in/" target="_blank" class="social-link" id="google" style="background-color: var(--google-color);"> <i class="fa-brands fa-google"></i></a>
+                       
+                        
+                            <a href="https://www.instagram.com/" target="_blank" class="social-link" id="instagram" style=" background-color: var(--instagram-color);"><i class="fa-brands fa-instagram"></i></a>
+                       
+                       
+                           <a href="https://www.linkedin.com/signup" target="_blank" class="social-link" id="linkedin" style="  background-color: var(--linkedin-color);"> <i class="fa-brands fa-linkedin"></i></a>
+                       
+                            <a href="https://www.youtube.com/" target="_blank" class="social-link" id="youtube" style="background-color: var(--youtube-color);"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--follow-us-Section ends---------------------->
+        <!--contact-uS-Section Starts--------------->
+        <section class="contact-us-section com-gap">
+            <div class="container">
+                <h2>contact uS</h2>
+                <div class="contact-us-child">
+                    <!--form and maps-->
+                        <div class="message-left">
+                            <h3 class="heading-four">create new account</h3>
+    
+                            <form action="./nextIndex.html" class="Sign-form" onsubmit="formValidationFunc()">
+                                <input type="text" name="" id="firstName" placeholder="First Name">
+    
+                                <input type="text" name="" id="lastName" placeholder="Last Name">
+                                
+                                <input type="tel" name="" id="phone" placeholder="Mobile Number">
+
+                                <input type="email" name="" id="email" placeholder="xyz@gmail.com">
+                                <input type="submit" name="" id="sign-btn" value="Sign up">
+    
+                            </form>
+                        </div>
+
+                        <div class="message-right">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.41507793996!2d88.31953967589341!3d22.11014444975988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a025b357bb4a9e7%3A0x975f46c6e58c901c!2sLakshmikantapur!5e0!3m2!1sen!2sin!4v1741622591996!5m2!1sen!2sin" width="530" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+        <!--contact-uS-Section ends--------------->
+    
+   </main>
+   <!--footer-Section Starts--------------------->
+   <footer class="footer-section">
+        <div class="container">
+            <div class="footer-section-child">
+                <div class="footer-one">
+                    <a href="./index.html" class="footer-logo"><img src="./Assets/Images/SmallSquareLogoJpg-removebg-preview.png" alt="footer-logo"></a>
+
+                    <p>Empowering readers with seamless book management and easy access to resources.</p>
+
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/i/flow/login?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://in.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+
+                    
+                </div>
+
+                <div class="footer-two">
+                    <div class="footer-headings">
+                        quick links
+                    </div>
+
+                    <ul class="footer-links">
+                        <li><a href="#">> library NewS</a></li>
+                        <li><a href="#">> hiStory</a></li>
+                        <li><a href="#">> meet our Stuff</a></li>
+                        <li><a href="#">> budget</a></li>
+                        <li><a href="#">> annual report</a></li>
+                    </ul>
+                </div>
+                <div class="footer-two">
+                    <div class="footer-headings">
+                        timings
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>Mon - Thu: 9 am - 9 pm</li>
+                        <li>Fri: 9 am - 6 pm</li>
+                        <li>Sat: 9 am - 5 pm</li>
+                        <li>Sun: 1 pm - 6 pm</li>
+                        <li>holiday's</li>
+                    </ul>
+                </div>
+                <div class="footer-two">
+                    <div class="footer-headings">
+                        latest tweetS
+                    </div>
+
+                    <ul class="footer-links">
+                        <li><a href="#">> library NewS</a></li>
+                        <li><a href="#">> hiStory</a></li>
+                        <li><a href="#">> meet our Stuff</a></li>
+                        <li><a href="#">> budget</a></li>
+                        <li><a href="#">> annual report</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </footer>
+   <!--footer-Section ends--------------------->
+
+
+    
+
+   <!--JS linkS-->
+   <script src="./JS/script.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+    //   spaceBetween: 30,
+      loop: true,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+    });
+  </script>
+
+    <!-- jquery -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 2,
+                adaptiveHeight: true,
+                arrows: true,
+                prevArrow: '<button type="button" class="slick-prev custom-prev"></button>',
+                nextArrow: '<button type="button" class="slick-next custom-next">→</button>',
+                responsive:[
+                        {
+                            breakpoint:992,
+                            settings:{
+
+                                slidesToShow:1
+                            },
+                        },
+                        {
+                            breakpoint:768,
+                            settings:{
+
+                                slidesToShow:1
+                            },
+                        },
+                        {
+                            breakpoint:320,
+                            settings:{
+
+                                slidesToShow:1
+                            },
+                        }
+                ]
+
+            });
+        });
+    </script>
+</body>
+</html>
